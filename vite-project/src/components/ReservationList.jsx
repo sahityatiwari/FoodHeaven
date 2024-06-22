@@ -11,7 +11,7 @@ const ReservationList = () => {
   useEffect(() => {
     const fetchReservations = async () => {
       try {
-        const response = await axios.get('http://localhost:2025/api/v1/reservation/askdata');
+        const response = await axios.get('https://food-heaven-fawn.vercel.app/api/v1/reservation/askdata');
         setReservations(response.data);
       } catch (error) {
         console.error('Error fetching reservations:', error);
