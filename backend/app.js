@@ -20,7 +20,7 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
 app.get('/', (req, res) => {
-    res.send("Welcome to the API");
+    res.send("JAI BAJRANBALI KI");
 });
 
 app.use('/api/v1/reservation', router);
