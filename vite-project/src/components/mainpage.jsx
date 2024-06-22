@@ -1,6 +1,6 @@
 import React from "react";
 import NavBar from "./navBar";
-import {Link} from "react-router-dom";
+import { Link as RouterLink } from 'react-router-dom';
 
 const Mainpage = () => {
   return (
@@ -18,7 +18,9 @@ const Mainpage = () => {
             Lorem ipsum dolor sit amet, consectetur sit Lorem <br /> adipisicing elit. 
             Accusamus veniam expedita Lorem<br />quis autem dolores, quod 
           </div>
-          <div className="bookatable"><button className="bookbtn">Book a Table</button></div>
+          <div className="bookatable"> <RouterLink to="/reservation" className="bookbtn">
+            Book a Table
+          </RouterLink></div>
         </div>
         <div ><img src="/whoweare.png" alt="sdjhbvjh" className="homedisplay"/></div>
       </div>

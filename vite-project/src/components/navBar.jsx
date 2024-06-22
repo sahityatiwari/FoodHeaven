@@ -21,7 +21,7 @@ const NavBar = () => {
             </RouterLink>
           ))}
           <RouterLink to="/reservationlist" className="adminLogin">
-            Admin Login
+            All Bookings
           </RouterLink>
         </div>
       </div>
