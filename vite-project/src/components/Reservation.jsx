@@ -20,7 +20,7 @@ const Reservation = () => {
     e.preventDefault();
     try {
       const { data } = await axios.post(
-        "https://food-heaven-seven.vercel.app/api/v1/reservation/send",
+        "https://foodheavenback.onrender.com/api/v1/reservation/send",
         { firstname, lastname, email, phone, date, time },
         {
           headers: {
