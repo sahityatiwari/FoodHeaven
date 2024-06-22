@@ -1,13 +1,15 @@
-const mongoose =  require("mongoose");
+const mongoose = require("mongoose");
 
- const dbConnection = () => {
-    mongoose.connect(process.env.MONGO_URI)
+const dbConnection = () => {
+    const MONGO_URI = "mongodb+srv://sahitya7:Sahitya%402001@cluster0.xnbgpr8.mongodb.net/database1?retryWrites=true&w=majority&appName=Cluster0";
+
+    mongoose.connect(MONGO_URI)
         .then(() => {
-            console.log("Data Base Connected")
-        }
-        ).catch(err => {
-            console.log(err)
+            console.log("Database Connected");
         })
-}
+        .catch(err => {
+            console.error("Database Connection Error:", err);
+        });
+};
 
 module.exports = { dbConnection };
