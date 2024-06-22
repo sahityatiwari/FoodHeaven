@@ -15,7 +15,7 @@ const Mainpage = () => {
           <br />
           <div className="homepara">
             {/* Add your paragraph content here */}
-            Lorem ipsum dolor sit amet, consectetur sit Lorem <br /> adipisicing elit. 
+            Lorem ipsum dolor sit vmet, consectetur sit Lorem <br /> adipisicing elit. 
             Accusamus veniam expedita Lorem<br />quis autem dolores, quod 
           </div>
           <div className="bookatable"> <RouterLink to="/reservation" className="bookbtn">
