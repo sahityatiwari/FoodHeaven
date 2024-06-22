@@ -11,7 +11,7 @@ const ReservationList = () => {
   useEffect(() => {
     const fetchReservations = async () => {
       try {
-        const response = await axios.get('https://food-heaven-seven.vercel.app/api/v1/reservation/askdata');
+        const response = await axios.get('https://foodheavenback.onrender.com/api/v1/reservation/askdata');
         setReservations(response.data);
       } catch (error) {
         console.error('Error fetching reservations:', error);
@@ -23,7 +23,7 @@ const ReservationList = () => {
 
   const handleDelete = async (id) => {
     try {
-      await axios.delete(`https://food-heaven-seven.vercel.app/api/v1/reservation/${id}`);
+      await axios.delete(`https://foodheavenback.onrender.com/api/v1/reservation/${id}`);
       setReservations(reservations.filter(reservation => reservation._id !== id));
     } catch (error) {
       console.error('Error deleting reservation:', error);
