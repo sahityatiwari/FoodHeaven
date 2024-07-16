@@ -73,25 +73,25 @@
         "team": [
             {
                 "id": 1,
-                "image": "./member1.jpg",
+                "image": "./cropped_image.png",
                 "name": "ROBIN WARNER",
                 "designation": "Founder & Head Chef"
             },
             {
                 "id": 2,
-                "image": "./member2.jpg",
+                "image": "./cropped_image(1).png",
                 "name": "STEVE CLARKE",
                 "designation": "Sous Chef"
             },
             {
                 "id": 3,
-                "image": "./member3.jpg",
+                "image": "./cropped_image(2).png",
                 "name": "RICKY GOLD",
                 "designation": "Fast Food Chef"
             },
             {
                 "id": 4,
-                "image": "./member4.jpg",
+                "image": "./cropped_image(3).png",
                 "name": "PAUL HEYMAN",
                 "designation": "Senior Chef"
             }
